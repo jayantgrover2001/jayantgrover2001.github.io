@@ -1,0 +1,61 @@
+<!-- build:v4-20260101 -->
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-row">
+    <button class="icon-btn tap" id="openSearch" aria-label="Open search">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 18.5a8 8 0 1 1 0-16a8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5L22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+
+    <a class="logo-round tap" href="/" aria-label="AmpereHour home">
+      <img src="/assets/images/logo-round.svg" alt="AmpereHour logo" width="36" height="36" decoding="async">
+    </a>
+
+    <button class="icon-btn tap" id="openMenu" aria-label="Open menu">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- Menu Sheet -->
+<div class="sheet" id="menuSheet" aria-hidden="true">
+  <div class="sheet-backdrop" data-close="menu"></div>
+  <div class="sheet-panel" role="dialog" aria-modal="true" aria-label="Site menu">
+    <div class="sheet-head">
+      <div class="sheet-title">Menu</div>
+      <button class="icon-btn tap" id="closeMenu" aria-label="Close menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="sheet-body" aria-label="Main navigation">
+      <a class="nav-item tap" href="/"><span class="label">Home</span><span class="pill">Latest</span></a>
+
+      <div class="nav-item tap" id="categoriesToggle" role="button" tabindex="0" aria-expanded="false">
+        <span class="label">Categories</span>
+        <span class="pill" aria-hidden="true"><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6l6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </div>
+      <div class="submenu" id="categoriesSubmenu" hidden>
+        <a class="tap" href="/categories/cards.html">Cards</a>
+        <a class="tap" href="/categories/banking-hacks.html">Banking Hacks</a>
+        <a class="tap" href="/categories/personal-finance.html">Personal Finance</a>
+      </div>
+
+      <a class="nav-item tap" href="/card-comparisons.html"><span class="label">Card Comparisons</span><span class="pill">Soon</span></a>
+      <a class="nav-item tap" href="/about.html"><span class="label">About</span><span class="pill">Us</span></a>
+      <a class="nav-item tap" href="/contact.html"><span class="label">Contact Us</span><span class="pill">Talk</span></a>
+    </nav>
+  </div>
+</div>
+
+<!-- Search Overlay -->
+<div class="search" id="searchOverlay" aria-hidden="true">
+  <div class="search-backdrop" data-close="search"></div>
+  <div class="search-panel" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-row">
+      <input class="search-input" id="searchInput" type="search" placeholder="Search posts…" autocomplete="off" aria-label="Search posts">
+      <button class="icon-btn tap" id="closeSearch" aria-label="Close search">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="search-results" id="searchResults" aria-live="polite"></div>
+</div>

@@ -1,0 +1,373 @@
+{
+  "site": {
+    "name": "AmpereHour",
+    "url": "https://example.com"
+  },
+  "categories": [
+    "Cards",
+    "Banking Hacks",
+    "Personal Finance"
+  ],
+  "posts": [
+    {
+      "slug": "best-credit-card-first-time",
+      "title": "Best First Credit Card: A Brutal Checklist That Actually Works",
+      "excerpt": "No fluff. Just a mobile-first checklist to pick your first credit card without accidentally paying for it in fees.",
+      "date": "2025-12-29",
+      "category": "Cards",
+      "author": {
+        "name": "Riya Mehta",
+        "bio": "Front-end obsessed, finance-curious. I turn messy money topics into clean systems you can actually use.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author1/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/card1/1200/750",
+      "bodyHtml": "<p>Picking your first credit card shouldn\u2019t feel like decoding a secret contract. Here\u2019s a <strong>simple, brutal</strong> checklist you can use in 10 minutes.</p>\n      <div class=\"callout\"><div class=\"title\">Quick idea</div><p>If the card\u2019s benefits are confusing, it\u2019s usually because the fees are doing the talking.</p></div>\n      <h2>The 5-point checklist</h2>\n      <ol>\n        <li><strong>Annual fee:</strong> Start with <em>zero</em> unless the value is obvious.</li>\n        <li><strong>Reward fit:</strong> Choose rewards based on what you spend on <em>every week</em>.</li>\n        <li><strong>Interest rate:</strong> If you might carry a balance, prioritize APR.</li>\n        <li><strong>Acceptance:</strong> Make sure it actually works where you live and spend.</li>\n        <li><strong>Customer support:</strong> You\u2019ll care about this the first time something breaks.</li>\n      </ol>\n      <h2>What \u201cgood rewards\u201d really mean</h2>\n      <p>Rewards are only \u201cgood\u201d when they <strong>survive your habits</strong>. A 5% category reward is worthless if you forget to activate it.</p>\n      <blockquote>Brutal truth: the best card is the one you\u2019ll use consistently without mental overhead.</blockquote>\n      <h3>A mini comparison table</h3>\n      <div class=\"table-wrap\">\n        <table>\n          <thead><tr><th>Card Type</th><th>Best For</th><th>Risk</th></tr></thead>\n          <tbody>\n            <tr><td>Cashback</td><td>Simple, predictable value</td><td>Lower upside</td></tr>\n            <tr><td>Points</td><td>Travel or brand-specific perks</td><td>Complex rules</td></tr>\n            <tr><td>Low APR</td><td>Occasional carry</td><td>Fewer perks</td></tr>\n          </tbody>\n        </table>\n      </div>\n      <h2>Common traps (and how to dodge them)</h2>\n      <ul>\n        <li><strong>\u201cWelcome bonus\u201d tunnel vision:</strong> don\u2019t overspend to chase points.</li>\n        <li><strong>Hidden categories:</strong> check caps, exclusions, and redemption rules.</li>\n        <li><strong>Fee stacking:</strong> foreign transaction fees add up fast.</li>\n      </ul>\n      <h2>Example: a safe starter setup</h2>\n      <p>Use a <code>zero-fee cashback</code> card, set <strong>autopay</strong> for the full statement balance, and track spending weekly.</p>\n      <pre><code>// Mini rule of thumb\nif (you_pay_full_balance_every_month) pick(\"cashback\");\nelse pick(\"low APR\");</code></pre>\n      <figure>\n        <img src=\"https://picsum.photos/seed/card1b/1200/800\" alt=\"Abstract finance stock image\" loading=\"lazy\" decoding=\"async\">\n        <figcaption>Make the decision once. Then automate the rest.</figcaption>\n      </figure>",
+      "faqs": [
+        {
+          "q": "Is it bad to apply for multiple cards at once?",
+          "a": "It can be if you\u2019re new to credit. Multiple applications may cause multiple hard inquiries. Start with one solid card, build history, then optimize."
+        },
+        {
+          "q": "Should I pick points or cashback?",
+          "a": "If you want simplicity, cashback wins. Points are great when you consistently redeem them well, but complexity is the hidden cost."
+        },
+        {
+          "q": "Do I need to use my credit card every month?",
+          "a": "Using it regularly helps build consistent payment history. Small recurring bills with autopay are the lowest-friction option."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Consumer Financial Protection Bureau \u2014 credit basics",
+          "url": "https://www.consumerfinance.gov/"
+        },
+        {
+          "label": "Experian \u2014 how credit scores work",
+          "url": "https://www.experian.com/"
+        }
+      ]
+    },
+    {
+      "slug": "banking-hack-automate-savings",
+      "title": "Banking Hack: The 2-Account System That Saves Money on Autopilot",
+      "excerpt": "A simple split that makes saving feel automatic, not emotional.",
+      "date": "2025-12-25",
+      "category": "Banking Hacks",
+      "author": {
+        "name": "Arjun Khanna",
+        "bio": "I build systems: in code, in money, and in life. Minimal steps. Maximum consistency.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author2/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/bank1/1200/750",
+      "bodyHtml": "<p>This is the simplest savings system I\u2019ve seen actually stick. You don\u2019t need discipline. You need <strong>separation</strong>.</p>\n      <h2>The setup</h2>\n      <ul>\n        <li><strong>Account A:</strong> salary in + bills out</li>\n        <li><strong>Account B:</strong> savings only (no card, no UPI, no temptation)</li>\n      </ul>\n      <h2>The rule</h2>\n      <p>On payday, move your savings to Account B <em>first</em>. Your lifestyle adjusts to what stays in Account A.</p>\n      <div class=\"callout\"><div class=\"title\">Pro move</div><p>Name Account B something aggressive, like \u201cDo Not Touch\u201d.</p></div>\n      <h2>Micro-interaction mindset</h2>\n      <p>Every time you see \u201cinsufficient funds\u201d in Account A, it forces a tiny pause. That pause is the habit change.</p>\n      <blockquote>Automation doesn\u2019t remove freedom. It removes the need to negotiate with yourself.</blockquote>\n      <h3>Optional: weekly sweep</h3>\n      <p>Set a weekly rule: anything above your buffer goes to savings.</p>",
+      "faqs": [
+        {
+          "q": "How much should I transfer first?",
+          "a": "Start with a number you can keep doing. Even 5\u201310% is powerful when it\u2019s consistent."
+        },
+        {
+          "q": "Should Account B be in the same bank?",
+          "a": "It can be, but a different bank can add friction\u2014in a good way."
+        }
+      ],
+      "sources": [
+        {
+          "label": "OECD \u2014 financial education resources",
+          "url": "https://www.oecd.org/financial/education/"
+        },
+        {
+          "label": "World Bank \u2014 financial inclusion overview",
+          "url": "https://www.worldbank.org/"
+        }
+      ]
+    },
+    {
+      "slug": "personal-finance-50-30-20-brutal",
+      "title": "50/30/20 Budget: The Brutalist Version for Real Life",
+      "excerpt": "Make the famous rule work even when costs are rising and your income isn\u2019t.",
+      "date": "2025-12-22",
+      "category": "Personal Finance",
+      "author": {
+        "name": "Riya Mehta",
+        "bio": "Front-end obsessed, finance-curious. I turn messy money topics into clean systems you can actually use.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author1/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/money1/1200/750",
+      "bodyHtml": "<p>The 50/30/20 rule is useful, but it\u2019s too neat. Let\u2019s make it usable.</p>\n      <h2>Step 1: define \u201cneeds\u201d aggressively</h2>\n      <p>Needs are what keep you safe and functional: rent, groceries, transport, basic utilities.</p>\n      <h2>Step 2: cap lifestyle creep</h2>\n      <p>\u201cWants\u201d aren\u2019t bad. But keep them honest. If a want becomes recurring, it becomes a need.</p>\n      <h2>Step 3: automate the 20</h2>\n      <p>Saving/investing should happen without you making the decision each month.</p>\n      <div class=\"table-wrap\">\n        <table>\n          <thead><tr><th>Bucket</th><th>Default</th><th>Brutalist edit</th></tr></thead>\n          <tbody>\n            <tr><td>Needs</td><td>50%</td><td>As low as possible without risk</td></tr>\n            <tr><td>Wants</td><td>30%</td><td>Budget \u201cfun\u201d in advance</td></tr>\n            <tr><td>Future</td><td>20%</td><td>Automate first, adjust later</td></tr>\n          </tbody>\n        </table>\n      </div>\n      <h2>A note on debt</h2>\n      <p>If you\u2019re paying high interest, debt payoff lives inside the \u201c20\u201d until it\u2019s gone.</p>",
+      "faqs": [
+        {
+          "q": "What if my needs are more than 50%?",
+          "a": "That\u2019s common. Start by tracking, then reduce the biggest fixed costs first. Use the rule as a direction, not a judgment."
+        },
+        {
+          "q": "Do I include investments in the 20%?",
+          "a": "Yes\u2014saving, investing, and debt payoff typically live there."
+        },
+        {
+          "q": "Is 50/30/20 good for students?",
+          "a": "It can be, but income volatility makes automation even more important. Start tiny and scale."
+        }
+      ],
+      "sources": [
+        {
+          "label": "FDIC \u2014 money smart resources",
+          "url": "https://www.fdic.gov/"
+        },
+        {
+          "label": "Investor.gov \u2014 basics",
+          "url": "https://www.investor.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "cards-cashback-vs-points",
+      "title": "Cashback vs Points: Pick the One That Matches Your Brain",
+      "excerpt": "Your rewards strategy should reduce thinking\u2014not increase it.",
+      "date": "2025-12-17",
+      "category": "Cards",
+      "author": {
+        "name": "Arjun Khanna",
+        "bio": "I build systems: in code, in money, and in life. Minimal steps. Maximum consistency.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author2/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/card2/1200/750",
+      "bodyHtml": "<p>Rewards are supposed to feel like a bonus. If it feels like homework, you picked the wrong type.</p>\n      <h2>Cashback is a default</h2>\n      <p>Cashback is for people who want to win without remembering rules.</p>\n      <h2>Points are a game</h2>\n      <p>Points can be incredible when you redeem well\u2014but the rules are where banks hide profit.</p>\n      <blockquote>Choose the system you can run on your worst week.</blockquote>\n      <h2>One question to decide</h2>\n      <p>If you had to explain your reward math to a friend in 15 seconds\u2026 could you?</p>",
+      "faqs": [
+        {
+          "q": "Are points always better for travel?",
+          "a": "Not always. If you don\u2019t travel often or redeem strategically, cashback can be higher value overall."
+        },
+        {
+          "q": "What\u2019s the easiest points program?",
+          "a": "The easiest is the one with transparent redemption and minimal blackout rules. Read the terms before you get excited."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CFPB \u2014 credit card terms",
+          "url": "https://www.consumerfinance.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "banking-hacks-salary-day-rules",
+      "title": "Salary Day Rules: 7 Moves to Make Before You Spend Anything",
+      "excerpt": "A payday ritual that keeps your month from drifting into chaos.",
+      "date": "2025-12-13",
+      "category": "Banking Hacks",
+      "author": {
+        "name": "Nisha Verma",
+        "bio": "I write about money like I\u2019m talking to my younger self\u2014direct, practical, and a bit ruthless.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author3/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/bank2/1200/750",
+      "bodyHtml": "<p>Payday is leverage. Use it before it disappears into random purchases.</p>\n      <h2>Do these 7 moves</h2>\n      <ol>\n        <li>Pay fixed bills.</li>\n        <li>Transfer savings.</li>\n        <li>Top up emergency fund.</li>\n        <li>Set weekly spending caps.</li>\n        <li>Clear small debts.</li>\n        <li>Buy essentials in bulk.</li>\n        <li>Plan one \u201cfun\u201d purchase\u2014on purpose.</li>\n      </ol>\n      <div class=\"callout\"><div class=\"title\">Note</div><p>When you plan fun, you stop guilt-spending later.</p></div>\n      <h2>Keep it repeatable</h2>\n      <p>The goal isn\u2019t perfection. It\u2019s a system you can repeat for 12 months.</p>",
+      "faqs": [
+        {
+          "q": "Should I pay debt or build savings first?",
+          "a": "Do both in small amounts, but prioritize high-interest debt while keeping a basic emergency buffer."
+        }
+      ],
+      "sources": [
+        {
+          "label": "MyMoney.gov \u2014 budgeting basics",
+          "url": "https://www.mymoney.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "personal-finance-emergency-fund-size",
+      "title": "Emergency Fund Size: Stop Guessing and Use This Simple Formula",
+      "excerpt": "A clear way to choose an emergency fund target based on your life, not internet advice.",
+      "date": "2025-12-09",
+      "category": "Personal Finance",
+      "author": {
+        "name": "Nisha Verma",
+        "bio": "I write about money like I\u2019m talking to my younger self\u2014direct, practical, and a bit ruthless.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author3/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/money2/1200/750",
+      "bodyHtml": "<p>\u201c3\u20136 months\u201d is a range, not a plan. Here\u2019s how to pick your number.</p>\n      <h2>The formula</h2>\n      <p><strong>Emergency Fund = Monthly Essentials \u00d7 Risk Multiplier</strong></p>\n      <h3>Risk multipliers</h3>\n      <ul>\n        <li>Stable job + low dependents: <strong>3</strong></li>\n        <li>Variable income or dependents: <strong>6</strong></li>\n        <li>High volatility / single income household: <strong>9</strong></li>\n      </ul>\n      <h2>Where to keep it</h2>\n      <p>Liquid, safe, boring. That\u2019s the point.</p>",
+      "faqs": [
+        {
+          "q": "Can an emergency fund be invested?",
+          "a": "The core fund should be liquid and low-risk. Investing adds volatility right when you need stability."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Investor.gov \u2014 emergency savings",
+          "url": "https://www.investor.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "cards-credit-utilization-myths",
+      "title": "Credit Utilization Myths: What Matters (and What Doesn\u2019t)",
+      "excerpt": "A clear guide to the most misunderstood part of credit scores.",
+      "date": "2025-12-05",
+      "category": "Cards",
+      "author": {
+        "name": "Riya Mehta",
+        "bio": "Front-end obsessed, finance-curious. I turn messy money topics into clean systems you can actually use.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author1/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/card3/1200/750",
+      "bodyHtml": "<p>Utilization isn\u2019t magic. It\u2019s math. But timing matters.</p>\n      <h2>Two numbers to know</h2>\n      <ul>\n        <li><strong>Statement balance:</strong> what gets reported most often</li>\n        <li><strong>Current balance:</strong> what you see today</li>\n      </ul>\n      <h2>Brutal rule</h2>\n      <p>Pay early if you\u2019re near your limit. Otherwise, don\u2019t overthink it.</p>",
+      "faqs": [
+        {
+          "q": "Is 30% utilization a hard rule?",
+          "a": "No. Lower is often better, but the most important thing is paying on time and not maxing out."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Experian \u2014 utilization basics",
+          "url": "https://www.experian.com/"
+        }
+      ]
+    },
+    {
+      "slug": "banking-hacks-alerts-that-save-money",
+      "title": "Bank Alerts That Quietly Save You Money Every Month",
+      "excerpt": "Turn on the right alerts and you\u2019ll catch leaks before they become bills.",
+      "date": "2025-11-30",
+      "category": "Banking Hacks",
+      "author": {
+        "name": "Arjun Khanna",
+        "bio": "I build systems: in code, in money, and in life. Minimal steps. Maximum consistency.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author2/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/bank3/1200/750",
+      "bodyHtml": "<p>Alerts feel annoying until they save you from an unnecessary fee.</p>\n      <h2>Three alerts to enable</h2>\n      <ul>\n        <li><strong>Low balance:</strong> to avoid accidental overdrafts</li>\n        <li><strong>Large transaction:</strong> to catch fraud fast</li>\n        <li><strong>Subscription renewal:</strong> to cancel before it hits</li>\n      </ul>\n      <h2>Make it brutal</h2>\n      <p>Set thresholds that hurt just enough to force attention.</p>",
+      "faqs": [
+        {
+          "q": "Are alerts secure?",
+          "a": "Use in-app notifications where possible, avoid sensitive details in SMS alerts, and keep your device locked."
+        }
+      ],
+      "sources": [
+        {
+          "label": "FTC \u2014 identity theft resources",
+          "url": "https://www.ftc.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "personal-finance-cut-expenses-without-misery",
+      "title": "Cut Expenses Without Misery: The \u201cOne Painful Cut\u201d Method",
+      "excerpt": "Stop trimming tiny things forever. Make one big cut that changes the month.",
+      "date": "2025-11-25",
+      "category": "Personal Finance",
+      "author": {
+        "name": "Nisha Verma",
+        "bio": "I write about money like I\u2019m talking to my younger self\u2014direct, practical, and a bit ruthless.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author3/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/money3/1200/750",
+      "bodyHtml": "<p>Most budgets fail because they\u2019re a thousand small \u201cno\u201d decisions. Replace that with one decision you can feel.</p>\n      <h2>How it works</h2>\n      <ol>\n        <li>List your top 5 monthly categories.</li>\n        <li>Pick one category to cut by 15\u201325% for 60 days.</li>\n        <li>Automate that cut (cancel, downgrade, or cap).</li>\n      </ol>\n      <blockquote>One painful cut beats 30 tiny cuts that you never keep.</blockquote>\n      <h2>Example</h2>\n      <p>Downgrade one subscription bundle. Put the savings into your emergency fund.</p>",
+      "faqs": [
+        {
+          "q": "What category should I cut first?",
+          "a": "Start with recurring subscriptions or a lifestyle expense that doesn\u2019t impact your health or work."
+        }
+      ],
+      "sources": [
+        {
+          "label": "MyMoney.gov \u2014 saving money",
+          "url": "https://www.mymoney.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "cards-fees-you-should-never-pay",
+      "title": "Credit Card Fees You Should Never Pay (and How to Avoid Them)",
+      "excerpt": "Late fees, foreign transaction fees, and the sneaky ones hiding in plain sight.",
+      "date": "2025-11-20",
+      "category": "Cards",
+      "author": {
+        "name": "Arjun Khanna",
+        "bio": "I build systems: in code, in money, and in life. Minimal steps. Maximum consistency.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author2/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/card4/1200/750",
+      "bodyHtml": "<p>Fees are not \u201csmall.\u201d They\u2019re recurring taxes on forgetfulness.</p>\n      <h2>The big three</h2>\n      <ul>\n        <li><strong>Late payment:</strong> fix with autopay</li>\n        <li><strong>Foreign transaction:</strong> pick the right card</li>\n        <li><strong>Cash advance:</strong> avoid entirely</li>\n      </ul>\n      <div class=\"callout\"><div class=\"title\">Quick fix</div><p>Autopay the statement balance. If that\u2019s not possible, autopay the minimum to protect your history.</p></div>",
+      "faqs": [
+        {
+          "q": "Is an annual fee always bad?",
+          "a": "No\u2014if the benefits clearly exceed the fee for how you spend. But most people overestimate benefits and underestimate friction."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CFPB \u2014 credit card fees",
+          "url": "https://www.consumerfinance.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "banking-hacks-stop-subscription-creep",
+      "title": "Stop Subscription Creep: A Banking Trick That Cancels For You",
+      "excerpt": "Use a dedicated card or account lane so subscriptions can\u2019t hide in your main spending.",
+      "date": "2025-11-16",
+      "category": "Banking Hacks",
+      "author": {
+        "name": "Riya Mehta",
+        "bio": "Front-end obsessed, finance-curious. I turn messy money topics into clean systems you can actually use.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author1/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/bank4/1200/750",
+      "bodyHtml": "<p>Subscriptions win when they\u2019re invisible. Make them loud.</p>\n      <h2>Create a subscription lane</h2>\n      <p>Use one card for subscriptions only. When you want to cut costs, you cut that lane.</p>\n      <h2>Make cancellations easy</h2>\n      <p>When everything is in one place, you can cancel in minutes.</p>",
+      "faqs": [
+        {
+          "q": "Will services stop if I change the payment method?",
+          "a": "Yes, often after a grace period. That\u2019s the point\u2014force a decision."
+        }
+      ],
+      "sources": [
+        {
+          "label": "FTC \u2014 recurring charges guidance",
+          "url": "https://www.ftc.gov/"
+        }
+      ]
+    },
+    {
+      "slug": "personal-finance-net-worth-tracker-simple",
+      "title": "Build a Simple Net Worth Tracker (Without Becoming a Spreadsheet Person)",
+      "excerpt": "A minimalist net worth routine you can keep for years.",
+      "date": "2025-11-11",
+      "category": "Personal Finance",
+      "author": {
+        "name": "Arjun Khanna",
+        "bio": "I build systems: in code, in money, and in life. Minimal steps. Maximum consistency.",
+        "linkedin": "#",
+        "avatar": "https://picsum.photos/seed/author2/80/80"
+      },
+      "thumbnail": "https://picsum.photos/seed/money4/1200/750",
+      "bodyHtml": "<p>Net worth tracking is useful because it creates clarity, not because it\u2019s fancy.</p>\n      <h2>The 10-minute monthly routine</h2>\n      <ol>\n        <li>Record cash + bank balances.</li>\n        <li>Record investments.</li>\n        <li>Record debts.</li>\n        <li>Compute: assets \u2212 liabilities.</li>\n      </ol>\n      <pre><code>netWorth = (cash + investments + assets) - (debts)</code></pre>\n      <h2>Don\u2019t optimize too early</h2>\n      <p>Consistency is the feature. Complexity is the bug.</p>",
+      "faqs": [
+        {
+          "q": "How often should I update?",
+          "a": "Monthly is enough for most people. Weekly tracking often turns into noise."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Investor.gov \u2014 financial tools",
+          "url": "https://www.investor.gov/"
+        }
+      ]
+    }
+  ]
+}

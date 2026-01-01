@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en" class="bg-grid">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<title>Contact | AmpereHour</title>
+<meta name="description" content="Contact AmpereHour. Send a message or reach us via the contact details.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://example.com/contact.html">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/favicon.svg">
+<meta property="og:title" content="Contact | AmpereHour">
+<meta property="og:description" content="Contact AmpereHour. Send a message or reach us via the contact details.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://example.com/contact.html">
+<meta property="og:image" content="https://example.com/assets/images/logo-round.svg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact | AmpereHour">
+<meta name="twitter:description" content="Contact AmpereHour. Send a message or reach us via the contact details.">
+<meta name="twitter:image" content="https://example.com/assets/images/logo-round.svg">
+<link rel="preload" href="/assets/css/styles.css?v4-20260101" as="style">
+<link rel="stylesheet" href="/assets/css/styles.css?v4-20260101">
+<script defer src="/assets/js/site.js?v4-20260101"></script>
+
+</head>
+<body>
+  <div class="shell">
+    <div id="siteHeader"></div>
+
+    <main id="main">
+      <div class="wrap">
+        <section class="hero">
+          <div class="kicker"><span class="dot"></span>Contact</div>
+          <h1>Let’s talk.<br>No spam vibes.</h1>
+          <p class="muted">Use the form or the contact details below. (Form submission backend optional — wire it up when you’re ready.)</p>
+        </section>
+
+        <section class="contact-form-zone" id="contactZone">
+
+  <form id="contactForm"
+        class="form"
+        action="https://script.google.com/macros/s/AKfycbzj63z8WN4EsHpNf_aBUvFID-yiDwqgPXbHcKZWvSQ4QCDOh5C9M3es6Zg5DDjXMgDY/exec"
+        method="POST"
+        novalidate>
+
+    <div class="field">
+      <label class="label" for="c_name">Name</label>
+      <input class="input"
+             id="c_name"
+             name="name"
+             type="text"
+             required
+             autocomplete="name"
+             placeholder="Your name">
+    </div>
+
+    <div class="field">
+      <label class="label" for="c_email">Email</label>
+      <input class="input"
+             id="c_email"
+             name="email"
+             type="email"
+             required
+             autocomplete="email"
+             placeholder="you@email.com">
+    </div>
+
+    <div class="field">
+      <label class="label" for="c_message">Message</label>
+      <textarea class="textarea"
+                id="c_message"
+                name="message"
+                rows="6"
+                required
+                placeholder="Write your message..."></textarea>
+    </div>
+
+    <p class="note muted">We typically respond within 1–2 business days.</p>
+
+    <!-- Honeypot (bots fill this). Hidden via CSS -->
+    <input class="hp" name="company" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+    <!-- Helpful context -->
+    <input type="hidden" name="page" value="">
+    <input type="hidden" name="ua" value="">
+
+    <button class="btn" type="submit">Send</button>
+  </form>
+
+  <!-- Success panel (hidden by default; your CSS remains intact) -->
+  <div class="contact-success" id="contactSuccess" aria-live="polite" hidden>
+    <div class="success-badge">✓</div>
+    <h3>Thanks — we got your message.</h3>
+    <p class="muted">We’ll reply soon. This form will reset in a moment.</p>
+  </div>
+
+</section>
+
+
+        <section class="section">
+          <div class="hr"></div>
+          <h2 style="font-size:var(--h2); margin:0 0 10px;">Contact info</h2>
+          <p class="muted" style="line-height:1.7;">
+            Email: <a href="mailto:hello@example.com">hi.tgghq@gmail.com</a><br>
+            Telegram: <a href="#" aria-label="Telegram link">t.me/example</a><br>
+            Hours: Mon–Fri, 10:00–18:00 (IST)
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <div id="siteFooter"></div>
+  </div>
+
+  <script>
+(() => {
+  const form = document.getElementById("contactForm");
+  const success = document.getElementById("contactSuccess");
+  if (!form || !success) return;
+
+  // Fill hidden fields
+  const page = form.querySelector('input[name="page"]');
+  const ua = form.querySelector('input[name="ua"]');
+  if (page) page.value = location.href;
+  if (ua) ua.value = navigator.userAgent;
+
+  const endpoint = form.getAttribute("action");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    // Basic required validation (keeps UX tight)
+    const name = form.querySelector('input[name="name"]')?.value?.trim();
+    const email = form.querySelector('input[name="email"]')?.value?.trim();
+    const message = form.querySelector('textarea[name="message"]')?.value?.trim();
+    if (!name || !email || !message) {
+      // You can replace with your own UI message
+      alert("Please fill Name, Email, and Message.");
+      return;
+    }
+
+    form.classList.add("is-sending");
+
+    try {
+      // no-cors avoids CORS issues with Apps Script; we treat completion as success
+      await fetch(endpoint, {
+        method: "POST",
+        body: new FormData(form),
+        mode: "no-cors",
+      });
+
+      // Reset form + show branded thanks panel
+      form.reset();
+      form.hidden = true;
+      success.hidden = false;
+      requestAnimationFrame(() => success.classList.add("show"));
+
+      // After a short pause, bring back an empty form
+      setTimeout(() => {
+        success.classList.remove("show");
+        setTimeout(() => {
+          success.hidden = true;
+          form.hidden = false;
+          form.classList.remove("is-sending");
+        }, 220);
+      }, 2400);
+
+    } catch (err) {
+      form.classList.remove("is-sending");
+      alert("Something went wrong. Please try again.");
+    }
+  });
+})();
+</script>
+
+
+</body>
+</html>
