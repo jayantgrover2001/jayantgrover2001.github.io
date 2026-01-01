@@ -1,5 +1,29 @@
 /* AmpereHour brutalist blog — small, fast, static-friendly JS */
 (() => {
+
+  function loadTrackingOnce(){
+  if (document.querySelector('script[data-tracking="1"]')) return;
+
+  const s = document.createElement("script");
+  s.src = "/assets/js/tracking.js";
+  s.defer = true;
+  s.dataset.tracking = "1";
+  document.head.appendChild(s);
+}
+
+// call it early
+loadTrackingOnce();
+
+async function injectBodyOpen(){
+  if (document.getElementById("bodyOpenInjected")) return;
+  const html = await fetch("/assets/partials/body-open.html", { cache: "no-store" }).then(r => r.text());
+  const marker = document.createElement("div");
+  marker.id = "bodyOpenInjected";
+  marker.innerHTML = html;
+  document.body.prepend(marker);
+}
+injectBodyOpen();
+  
   const $ = (s, r=document) => r.querySelector(s);
   const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
 
