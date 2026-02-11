@@ -111,28 +111,28 @@ export const blogPosts = [
 export const teamMembers = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Jayant",
     role: "Founder & CEO",
     bio: "10+ years experience in digital marketing with a passion for helping local businesses succeed.",
     image: "/images/team-sarah.jpg"
   },
   {
     id: 2,
-    name: "Mike Chen",
+    name: "Princh Verma",
     role: "Lead Developer",
     bio: "Full-stack developer specializing in fast, user-friendly websites and web applications.",
     image: "/images/team-mike.jpg"
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
+    name: "Purshotam Kumar",
     role: "SEO Specialist",
     bio: "Expert in local SEO and helping businesses dominate their geographic markets.",
     image: "/images/team-emily.jpg"
   },
   {
     id: 4,
-    name: "David Kim",
+    name: "Jyoti Verma",
     role: "Marketing Strategist",
     bio: "Data-driven marketer focused on ROI and sustainable business growth.",
     image: "/images/team-david.jpg"
